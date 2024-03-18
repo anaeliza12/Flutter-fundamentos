@@ -4,4 +4,9 @@ void main() {
   int resultado = a + b;
 
   print(resultado);
+
+  bool ehFragil = true;
+  bool ehCaro = false;
+
+  print(ehFragil | ehCaro);
 }
