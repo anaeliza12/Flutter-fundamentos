@@ -9,4 +9,7 @@ void main() {
   bool ehCaro = false;
 
   print(ehFragil | ehCaro);
+
+  print(!ehFragil);
+  print(!!ehFragil);
 }
