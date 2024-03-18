@@ -3,7 +3,7 @@ void main() {
   String status = 'aprovado';
   double nta = 9.3;
 
-  String frase = "$nome $status ";
+  String frase = "$nome $status $nta ";
 
   print(frase);
 }
